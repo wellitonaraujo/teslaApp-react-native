@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, Image } from 'react-native';
 import styles from './styles';
 
+import StyledButton from '../../components/StyledButton';
+
 export default function CardItem() {
  return (
    <View>
@@ -17,6 +19,8 @@ export default function CardItem() {
           <Text style={styles.subTitle}>Valor sugerido: Muito caro</Text>
         </View>
 
+      <StyledButton />
+      
       </View>
    </View>
   );
